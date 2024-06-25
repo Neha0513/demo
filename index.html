@@ -1,1 +1,65 @@
-<h1>Welcome to lab9</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <style>
+            div{
+                  margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <h1>registration form</h1>
+            <div>
+                <label>name:</label>
+                <input type="text" name="name" placeholder="enter a name">
+            </div>
+            <div>
+                <label>Address:</label>
+                <textarea rows="3" columns="5"></textarea>
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="enter a email">
+            </div>
+            <div>
+                <label>contact:</label>
+                <input type="number" name="contact" placeholder="enter a contact">
+            </div>
+            <div>
+                <label>Gender:</label>
+                <input type="radio" name="gender"><label>Male</label>
+                <input type="radio" name="gender"><label>Female</label>
+                
+            </div>
+            <div>
+                <label>Coureses:</label>
+                <select>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JavaScript</option>
+                </select>
+            </div>
+            <div>
+                <label>Hobbies:</label>
+                <input type="checkbox" name="Hobbies1"><label>reading</label>
+                <input type="checkbox" name="Hobbies2"><label>playing</label>
+                <input type="checkbox" name="Hobbies3"><label>watching</label>
+            </div>
+            <div>
+                <label>Date Of birth:</label>
+               <input typ e="datetime-local" name="date">
+            </div>
+            <div>
+                <input type="week" name="date">
+            </div>
+            <div>
+                <input type="month" name="date">
+            </div>
+            <div>
+                <input type="range" name="range">
+            </div>
+        </form>
+    </body>
+</html>
